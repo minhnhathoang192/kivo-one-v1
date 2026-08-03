@@ -1,0 +1,38 @@
+# ESP-IDF generated build files
+**/build/
+build/
+
+# ESP-IDF temporary configuration
+sdkconfig.old
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Secrets and local environment files
+.env
+.env.*
+secrets.h
+credentials.h
+wifi_credentials.h
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# VS Code generated databases
+.vscode/.browse.VC.db*
+.vscode/ipch/
+
+
+# VS Code generated C/C++ configuration
+**/.vscode/c_cpp_properties.json
+
+**/.vscode/settings.json
